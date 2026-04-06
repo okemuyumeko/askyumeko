@@ -1,34 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>测试</title>
-<style>
-  body { font-family: Arial; padding: 20px; }
-  button { padding: 10px 20px; margin: 5px; cursor: pointer; }
-  img { margin-top: 20px; border: 1px solid #ccc; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 </head>
-
 <body>
-
-<h1>请选择一个问题</h1>
-
-<button onclick="showImage('https://via.placeholder.com/400?text=我是谁','我是谁')">我是谁</button>
-<button onclick="showImage('https://via.placeholder.com/400?text=你是谁','你是谁')">你是谁</button>
-<button onclick="showImage('https://via.placeholder.com/400?text=要忘掉吗','要忘掉吗')">要忘掉吗</button>
-
-<br><br>
-
-<h2 id="text"></h2>
-<img id="pic" width="400">
-
-<script>
-function showImage(imgName, text) {
-  document.getElementById("text").innerText = text;
-  document.getElementById("pic").src = imgName;
-}
-</script>
-
+    <h1>Welcome!</h1>
+    <img src="img1.jpg" alt="Image 1">
+    <img src="img2.jpg" alt="Image 2">
+    <img src="img3.jpg" alt="Image 3">
 </body>
 </html>
